@@ -24,15 +24,15 @@ export default function RootLayout({ children }) {
       <body>
         <ThirdwebProvider desiredChainId={desiredChainId}>
           <QueryClientProvider client={queryClient}>
-            <div className="container">
-              <video className={styles.videoBackground} loop autoPlay muted>
+            <div className={styles.globalContainer}>
+              <video className={styles.videoBackground} loop autoPlay muted playsInline>
                 <source src="./background-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
               <div className={styles.contentContainer}>
                 <Header />
-                {/* Your scrollable content here */}
+                {/* scrollable content here */}
                 <div className={styles.content}>
                   <Hero />
                   <Discover />
@@ -40,16 +40,9 @@ export default function RootLayout({ children }) {
                   <Invest />
 
                   {/* {children} */}
-                  {/* {Array(50)
-                    .fill()
-                    .map((_, idx) => (
-                      <div key={idx}>Content line {idx + 1}</div>
-                    ))} */}
                 </div>
               </div>
             </div>
-            {/* Only display Header if path is not /sign */}
-            {/* {pathname !== "/sign" && <Header />} */}
           </QueryClientProvider>
         </ThirdwebProvider>
       </body>

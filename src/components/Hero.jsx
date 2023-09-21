@@ -4,17 +4,12 @@ import React, { useState } from "react";
 
 const Hero = () => {
   return (
-    <div className={styles.cardContainer} >
+    <div className={styles.cardContainer}>
       <div className={styles.heroContainer}>
+        <div className={styles.heroText}>Back to</div>
+        <div className={styles.heroText2}>Roots</div>
 
-      <div className={styles.heroText} >
-        Back to
-      </div>
-      <div className={styles.heroText2} >
-        Roots
-      </div>
-
-      <button className={styles.heroButton}>Take Part</button>
+        <button className={styles.heroButton}>Take Part</button>
       </div>
     </div>
   );

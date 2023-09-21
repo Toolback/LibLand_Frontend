@@ -9,11 +9,8 @@ const Research = () => {
         <div className={styles.researchTitle}>Our Reaserches</div>
 
         <div className={styles.researchCardContainer}>
-
           <div className={styles.researchCard}>
-            <div className={styles.researchCardIcon}>
-              Icon Here
-            </div>
+            <div className={styles.researchCardIcon}>Icon Here</div>
             <div className={styles.researchCardText}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -23,9 +20,7 @@ const Research = () => {
           </div>
 
           <div className={styles.researchCard}>
-            <div className={styles.researchCardIcon}>
-              Icon Here
-            </div>
+            <div className={styles.researchCardIcon}>Icon Here</div>
             <div className={styles.researchCardText}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -35,9 +30,7 @@ const Research = () => {
           </div>
 
           <div className={styles.researchCard}>
-            <div className={styles.researchCardIcon}>
-              Icon Here
-            </div>
+            <div className={styles.researchCardIcon}>Icon Here</div>
             <div className={styles.researchCardText}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -45,7 +38,6 @@ const Research = () => {
               et dolore Ut enim ad minim veniam.
             </div>
           </div>
-
         </div>
 
         <button className={styles.researchCardButton}>Read more</button>

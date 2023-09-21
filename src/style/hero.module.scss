@@ -1,41 +1,49 @@
 @import './variables';
 
-$header-height: 10rem;
-$navbar-width: 10rem;
-$color-primary: $bg;
-$color-secondary: $bg;
-$color-mobile: $bg;
 
 .cardContainer {
   display: flex;
   flex-direction: column;
+  position:relative;
   min-height: 100vh;
   width: 100%;
-  padding: 10px;  /* Added some padding to ensure the text doesn't sit directly on the edge */
+  // padding: 10px;  /* Added some padding to ensure the text doesn't sit directly on the edge */
 }
 
-.heroContainer{
+.heroContainer {
   display: flex;
   flex-direction: column;
-  padding-top:220px;
+  position:absolute;
 
-height: 100%;
-width: 100%;
 
+  // height: 100%;
+  // width: 100%;
+
+  height: auto;
+  width: auto;
+  @media (min-width: 768px) {
+    bottom: 20%;
+    left:10%;
+}
+@media (max-width: 768px) {
+  bottom: 5%;
+  // left:10%;
+}
 }
 
 .heroText {
   font-size: 7rem;
 }
+
 .heroText2 {
   font-size: 7rem;
   margin-top: -50px;
-  
+
 }
 
 .heroButton {
   padding-top: 15px;
-  padding:5px;
+  padding: 5px;
   border-radius: 2px;
   border-width: 1px;
   border-color: white;
