@@ -1,0 +1,48 @@
+@import './variables';
+
+$header-height: 10rem;
+$navbar-width: 10rem;
+$color-primary: $bg;
+$color-secondary: $bg;
+$color-mobile: $bg;
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px;  /* Added some padding to ensure the text doesn't sit directly on the edge */
+}
+
+.discoverContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+height: 100%;
+width: 100%;
+
+}
+
+.discoverTitle {
+  font-size: 3rem;
+  font-style: bold;
+  font-family: 'Asgard Fit', 'arial';
+}
+.discoverText {
+  padding-top: 10px;
+  font-size: 2rem;
+  
+}
+
+.discoverButton {
+  margin-top: 30px;
+  font-size: 1rem;
+  padding:5px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 10px;
+  max-width: 8rem;
+  
+}
