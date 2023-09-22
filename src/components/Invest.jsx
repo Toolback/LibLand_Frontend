@@ -1,6 +1,7 @@
 "use client";
 import styles from "@/style/discover.module.scss";
 import React, { useState } from "react";
+import BuyCard from "./BuyCard";
 
 const Invest = () => {
   return (
@@ -14,8 +15,8 @@ const Invest = () => {
           minim veniam. sed do eiusmod tempor incididunt ut labore et dolore Ut
           enim ad minim veniam.
         </div>
-
-        <button className={styles.discoverButton}>Buy</button>
+        <BuyCard/>
+        
       </div>
     </div>
   );
