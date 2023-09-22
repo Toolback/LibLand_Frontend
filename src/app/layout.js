@@ -13,6 +13,8 @@ import Hero from "@/components/Hero";
 import Discover from "@/components/Discover";
 import Invest from "@/components/Invest";
 import Research from "@/components/Research";
+import Services from "@/components/Services";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -38,7 +40,8 @@ export default function RootLayout({ children }) {
                   <Discover />
                   <Research />
                   <Invest />
-
+                  <Services />
+                  <Footer />
                   {/* {children} */}
                 </div>
               </div>
